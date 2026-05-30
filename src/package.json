@@ -1,0 +1,30 @@
+{
+  "name": "shopify-webhook-handler",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js handler for verifying and processing Shopify webhooks. Built for payment confirmations, order events, and real-time store automation.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "shopify",
+    "webhook",
+    "nodejs",
+    "express",
+    "ecommerce",
+    "automation"
+  ],
+  "author": "Wayne Lynx",
+  "license": "MIT"
+}
